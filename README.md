@@ -4,4 +4,4 @@ Premio canguro: atleta che ha guadagnato più posizioni in una settimana nel ran
 ## Statistiche
 Script in ```progressione.py```
 
-![image](https://github.com/user-attachments/assets/e3e3f40b-7b97-491a-9c19-f9475fa6f67f)
+![Giulia RICCARDI_long-jump](https://github.com/user-attachments/assets/2ad09070-7942-4cfb-b2f1-f1840bfb1746)
