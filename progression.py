@@ -14,7 +14,7 @@ df_giulia["Date"] = pd.to_datetime(df_giulia["Date"])
 
 scale = 250 
 plt.figure(figsize=(1920 / scale, 1080 / scale))
-plt.plot(df_giulia["Date"], df_giulia["Place"], 'o-')
+plt.plot(df_giulia["Date"], df_giulia["Place"], '.-')
 
 plt.xlabel("Data")
 plt.ylabel("Ranking Mondiale")
