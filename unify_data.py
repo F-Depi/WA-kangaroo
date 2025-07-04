@@ -10,7 +10,7 @@ def unify_rankings_for_event(sex, event):
         if file.count("_") != 2 and file.startswith(f"{sex}_{event}"):
             continue
 
-        df_date = pd.read_csv(f"data/{file}")
+        df_date = pd.read_csv(f"data/{sex}_{event}/{file}")
         df_date = df_date.rename(columns={"Unnamed: 3": "Country"})
         df_date["Date"] = file[-14:-4]
         df = pd.concat([df, df_date])
@@ -20,4 +20,8 @@ def unify_rankings_for_event(sex, event):
 
 sex = "women"
 event = "long-jump"
+#unify_rankings_for_event(sex, event)
+
+sex = "men"
+event = "110mh"
 unify_rankings_for_event(sex, event)

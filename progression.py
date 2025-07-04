@@ -2,9 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-sex = "women"
-event = "long-jump"
-competitor = "Giulia RICCARDI"
+#sex = "women"
+#event = "long-jump"
+#competitor = "Giulia RICCARDI"
+
+sex = "men"
+event = "110mh"
+competitor = "Federico DE PAOLI"
 
 df = pd.read_csv(f"data/{sex}_{event}/{sex}_{event}.csv")
 df_giulia = df[df["Competitor"] == competitor].sort_values(by=["Date"])
@@ -21,7 +25,7 @@ plt.ylabel("Ranking Mondiale")
 plt.title(f"Progressione nel Ranking Mondiale di {competitor}")
 
 # Show monthly ticks
-plt.gca().xaxis.set_major_locator(mdates.MonthLocator(interval=2))  # every 2 months
+plt.gca().xaxis.set_major_locator(mdates.MonthLocator(interval=1))  # every 2 months
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
 plt.xticks(rotation=45, ha='right')
 
