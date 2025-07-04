@@ -6,7 +6,7 @@ sex = "women"
 event = "long-jump"
 competitor = "Giulia RICCARDI"
 
-df = pd.read_csv(f"data/{sex}_{event}.csv")
+df = pd.read_csv(f"data/{sex}_{event}/{sex}_{event}.csv")
 df_giulia = df[df["Competitor"] == competitor].sort_values(by=["Date"])
 
 # Make sure 'date' is datetime
