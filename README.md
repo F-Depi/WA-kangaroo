@@ -17,3 +17,8 @@ il 31/03/202 e il 01/12/2020. Li ho esclusi per correttezza anche se tecnicament
 Script in ```progressione.py```
 
 ![Giulia RICCARDI_long-jump](https://github.com/user-attachments/assets/2ad09070-7942-4cfb-b2f1-f1840bfb1746)
+
+
+Montagne russe
+
+![Federico DE PAOLI_110mh](https://github.com/user-attachments/assets/1a15bf95-4fd0-4959-b00a-782b1e3625db)
