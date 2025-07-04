@@ -89,16 +89,16 @@ def get_rakings_on_date(event, sex, date):
 
     df = df.reset_index(drop=True)
 
-    filename = f"data/{sex}_{event}_{date}.csv"
+    filename = f"data/{sex}_{event}/{sex}_{event}_{date}.csv"
     df.to_csv(filename, index=False)
 
 
-event = "long-jump"
-sex = "women"
+event = "110mh"
+sex = "men"
 
 # Example start and end dates
 start_date = "2019-01-01"
-end_date = "2019-10-23"
+end_date = "2019-07-02"
 dates = get_ranking_dates(start_date, end_date)
 
 for date in dates:
